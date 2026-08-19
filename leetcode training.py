@@ -51,3 +51,7 @@ class Solution3:
 #print(solution.romanToInt('III'))
 #print(solution.romanToInt('LVIII'))
 #print(solution.romanToInt('MCMXCIV'))
+
+class Solution4:
+    def isPalindrome(self, x: int) -> bool:
+        return str(x) == str(x)[::-1]
